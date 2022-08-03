@@ -1,0 +1,47 @@
+    
+    以上用过Ubuntu 但因为没写笔记 因为捣蛋猪 系统崩溃了（人麻了） 是第三次崩溃 无力再修。。。。。 
+    
+    重新装系统
+    再次之前写一个 小笔记（关于创建Google快捷方式怎么删除 当初遇到这个问题很是头痛 最后在我聪明的脑袋下我发现将他窗口化安装可卸载）
+7月5日 
+   这是我第2次重装系统 ，首先在windows拿出足够的空间，从Ubuntu官网下载镜像 通过 balenaEtcher工具创建启动盘 插上启动盘 进入bois 将启动设置为usb（显示的应该是你U盘的型号）因为是第二次安装 启动方式还残余Ubuntu的启动 第一次没找到切换启动盘 我在重启过后 通过启动盘开启进入了 ubuntu的安装界面  我选择的是最小安装 以此 我的Ubuntu的道路又开始了
+7月6日
+   连着5号我安装了相关应用 谷歌浏览器 ，bilibili，微信（星火商店，好像github上也有）接下来配置前端开发环境 安装vscode后 我去下载node.js因为没有适配Ubuntu版本 选择linux也可以 但是个压缩包 （忘记了原来是怎麼配置的了 我才突发奇想 每天写一个笔记） 根据查询相关信息 我将node下载好的包解压 放入 /usr/lib （我还将下载好的bin还是lib文件放到了usr/bin里）到此我安装好了node  其次是vue脚手架 这个过程还算顺利   
+7月8日
+         安装了GONME的扩展 和 ubuntu tweaks tool工具  sudo apt-get install numix-gtk-theme numix-icon-theme-circle  看了GONME 和《完美应用ubuntu》 安装了相关美化  并且 通过浏览器的 GONME shell的插件来实现GONME拓展插件的配置与安装 新手入坑 非常建议 看一下 书李提供的美化 numix主题 要单独下载图表库呦
+         要高效使用aptitude，通常将其作为命令行工具来使用，首先使用如下命令来安装：运行如下命令启动aptitude文本界面：aptitude文本界面 sudo apt install -y aptitude 运行命令 sudo aptitude 
+         无论使用何种工具，都最好先执行update操作，以免因软件仓库发生变化而导致操作失败。
+      Ubuntu-cleaner   
+         安装很简单，两条命令
+sudo add-apt-repository ppa:gerardpuig/ppa
+sudo apt-get update && sudo apt-get install ubuntu-cleaner
+
+7月19日
+   我安装了 user themes（主题切换）
+         transparent top bar （透明顶栏）
+         transparent windows moving（移动透明）
+         toggle night light （夜览按钮）
+         runcat（奔跑的猫）
+         no titlebar when maximized（当最大化时隐藏标题栏）
+         just perfection（美化之最）
+         customize ibus （美化输入法 ）
+         colorful battery indicator（美化电池）
+         buleooth battery indicator（蓝牙电池）
+         bedtime mode（灰度空间）
+7月19日
+        我更改了光标的样式  突然沉迷找些好看的 实用的软件 我发现了 tilde（播客） yesplaymusic（网易云代替版）很不错的应用我好喜欢  都是通过 sudo snap 安装
+7月20日 
+我发现GONME的粘贴板插件可以切换粘贴条目 于是我把切换的方式改为了 ctrl加上下键方便极了 因为粘贴切换的消息也就是他通知的消息 我改为了 在右上角弹出  因为我眼睛不好看不清 屏幕右上角的 通知 （震撼！！！） 我改回了在屏幕中心上方的 通知 但是这样又很影响我关闭在屏幕上的窗口 还有关闭窗口的快捷键 alt加f4间距太长 我大概是按下去会很累  我便改为了 alt加f1 那这就便于我的开发了  这便是便利（写着写着笔记好像 记事本的主题有点看的麻木了 还有那可恶的BUG为什么有时打字 他自动就全给我删了 我应该考虑还个软件 真是麻烦） 
+          7月26日
+          安装Preload
+Preload（预加载）会在后台工作，以「研究」您如何使用计算机并增强计算机的应用程序处理能力。安装好 Preload 后，您使用频率最高的应用程序的加载速度就会明显快于不经常使用的应用程序。
+
+安装了上面这个  这几天在搞美化 emmm 结果还不错  小开心  但也不能一直稿美化  项目也要干一干
+用TLP降低发热
+TLP 是一个有助于「系统冷却」的应用程序，可以让 Ubuntu 运行得更快、更顺畅。安装完成后，运行命令启动它即可，而无需任何配置。
+
+复制sudo add-apt-repository ppa:linrunner/tlp
+sudo apt update
+sudo apt install tlp tlp-rdw
+sudo tlp start
+下一秒 我又安装了这个
